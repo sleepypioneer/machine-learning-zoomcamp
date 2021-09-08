@@ -13,6 +13,12 @@ make dev
 
 ## Download data
 
+The first time collecting data run the following to create the data directory:
+
+```sh
+mkdir data
+```
+
 ### Week one
 
 ```sh
