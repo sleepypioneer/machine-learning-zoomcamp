@@ -31,11 +31,17 @@ The first time collecting data run the following to create the data directory:
 mkdir data
 ```
 
-#### Car data (for weeks one and two)
+#### Car data (for week one homework and week two notebook)
 
 ```sh
-cd data && mkdir week_one && cd week_one && wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv
+cd data && mkdir car_data && cd car_data && wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv
 ```
+
+#### New York City Airbnb Open Data (for weeks two homework)
+```sh
+cd data && mkdir airbnb_data && cd airbnb_data && wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/AB_NYC_2019.csv
+```
+
 
 ## Adding new libraries
 
