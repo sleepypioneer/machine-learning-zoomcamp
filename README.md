@@ -42,6 +42,10 @@ cd data && mkdir car_data && cd car_data && wget https://raw.githubusercontent.c
 cd data && mkdir airbnb_data && cd airbnb_data && wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/AB_NYC_2019.csv
 ```
 
+#### UCI Student Performance Data (for weeks two homework)
+```sh
+cd data && mkdir student_performance_data && cd student_performance_data && wget https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip && unzip student.zip
+```
 
 ## Adding new libraries
 
