@@ -12,7 +12,7 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 ### Week two: Regression
 
 - [notes](notebooks/week_two_predicting_car_price.ipynb)
-- [homework]()
+- [homework](notebooks/homework_week_2.ipynb))
 
 ## Running the local dev environment
 ### Start a Jupyter server for notebooks 📓
