@@ -1,6 +1,9 @@
 # Data files
 data/
 
+# venv files
+machine-learning-bootcamp
+
 # Temporary and binary files
 *~
 *.py[cod]

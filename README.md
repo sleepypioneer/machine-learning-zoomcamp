@@ -16,8 +16,18 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 
 ### Week three: Classification (churn prediction)
 
-- [notes]()
-- [homework]()
+- [notes](notebooks/week_three_churn_prediction.ipynb)
+- [homework](notebooks/homework_week_3.ipynb)
+
+### Week four: model evaluation
+
+- [notes](notebooks/week_four_evaluation_metrics.ipynb)
+- [homework](notebooks/homework_week_4.ipynb)
+
+### Week five: model deployment
+
+- [notes](notes/week_five_deployment.md)
+- [homework](homework_week_five/predict.py)
 
 ## Running the local dev environment
 ### Start a Jupyter server for notebooks 📓
@@ -56,7 +66,7 @@ cd data && mkdir airbnb_data && cd airbnb_data && wget https://raw.githubusercon
 cd data && mkdir student_performance_data && cd student_performance_data && wget https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip && unzip student.zip
 ```
 
-#### 
+#### Customer churn data
 
 ```sh
 cd data && mkdir telco_customer_churn && cd telco_customer_churn && wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-03-churn-prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv
