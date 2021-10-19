@@ -29,6 +29,11 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 - [notes](notes/week_five_deployment.md)
 - [homework](homework_week_five/predict.py)
 
+### Week six: decision trees
+
+- [notes](notes/week_six_decision_trees.md)
+- [homework](homework_week_6.py)
+
 ## Running the local dev environment
 ### Start a Jupyter server for notebooks 📓
 
@@ -70,6 +75,12 @@ cd data && mkdir student_performance_data && cd student_performance_data && wget
 
 ```sh
 cd data && mkdir telco_customer_churn && cd telco_customer_churn && wget https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-03-churn-prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv
+```
+
+#### Credit risk data
+
+```sh
+cd data && mkdir credit_risk && cd credit_risk && wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/AB_NYC_2019.csv
 ```
 
 
