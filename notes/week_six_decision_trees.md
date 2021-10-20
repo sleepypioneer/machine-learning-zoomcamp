@@ -198,7 +198,7 @@ Train 5 models and take average of returned predictions. Each decision tree mode
 
 *Each model gets a random set of features, we can use `random_state` to fix this, so our results are reproduceable.*
 
-# Gradient Boosting
+## Gradient Boosting
 
 Combine multiple ensembles into one.
 
@@ -210,3 +210,11 @@ Errors ->  train model 4 -> predictions 4
 
 Combine all predictions to give final productions.
 Each new model tries to correct the previous models errors. (so it happens sequencially not in parallel like trees)
+
+
+### Parameter tuning
+
+`eta`, `max_depth` and `min_child_weight` are important features to configure but also useful are `subsample`, `colsample_bytree`
+
+## Selecting the final model
+
