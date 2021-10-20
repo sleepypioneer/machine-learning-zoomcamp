@@ -216,5 +216,7 @@ Each new model tries to correct the previous models errors. (so it happens seque
 
 `eta`, `max_depth` and `min_child_weight` are important features to configure but also useful are `subsample`, `colsample_bytree`
 
-## Selecting the final model
 
+## Conclusion
+
+XgBoost often gives better performance, however it has more variables which require tuning in comparision with decision tree models which only have two variables (`max_depth` and`min_samples_leaf`) that require tuning. However decision trees easily overfit (performs well on training model and less well on test data)
