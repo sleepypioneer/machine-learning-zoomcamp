@@ -4,6 +4,9 @@ data/
 # venv files
 machine-learning-bootcamp
 
+# models
+*.h5
+
 # Temporary and binary files
 *~
 *.py[cod]
