@@ -32,7 +32,24 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 ### Week six: decision trees
 
 - [notes](notes/week_six_decision_trees.md)
-- [homework](homework_week_6.py)
+- [homework](notebooks/homework_week_6.ipynb)
+
+### Week seven: decision trees
+
+
+
+### Week eight: deep learning
+
+- [notes](notebooks/deep_learning.ipynb)
+- [homework](notebooks/homework_week_8.ipynb)
+
+
+### Week nine: serverless
+
+- [notes](notes/week_nine_serverless.md)
+- [homework](notebooks/homework_week_9.ipynb)
+- [homework part 2](homework_week_nine/lambda_function.py)
+
 
 ## Running the local dev environment
 
