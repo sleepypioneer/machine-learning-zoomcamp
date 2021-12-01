@@ -35,6 +35,23 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 - [homework](homework_week_6.py)
 
 ## Running the local dev environment
+
+### Running scripts locally in a virtual environment
+
+#### Create a virtual environment
+
+```sh
+python3.9 -m venv machine-learning-zoomcamp
+```
+
+#### Activate virtual environment
+
+```sh
+machine-learning-zoomcamp\Scripts\activate
+# or on linux
+source machine-learning-zoomcamp/bin/activate
+```
+
 ### Start a Jupyter server for notebooks 📓
 
 To spin up a Docker container with Jupyter Notebook libraries installed, run:
@@ -83,6 +100,11 @@ cd data && mkdir telco_customer_churn && cd telco_customer_churn && wget https:/
 cd data && mkdir credit_risk && cd credit_risk && wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/AB_NYC_2019.csv
 ```
 
+#### Clothing dataset (subset)
+
+```sh
+cd data && git clone git@github.com:alexeygrigorev/clothing-dataset-small.git
+```
 
 ## Adding new libraries
 
