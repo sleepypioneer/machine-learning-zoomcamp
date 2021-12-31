@@ -51,6 +51,12 @@ Notes and exercises from following [alexeygrigorev](https://github.com/alexeygri
 - [homework part 2](homework_week_nine/lambda_function.py)
 
 
+### Week ten: kubernetes
+
+- [notes](notes/week_ten_kubernetes.md)
+- [homework](homework_week_ten/)
+
+
 ## Running the local dev environment
 
 ### Running scripts locally in a virtual environment
